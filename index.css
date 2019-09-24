@@ -1,0 +1,42 @@
+body{
+	font-family: arial;
+	font-size: 15px;
+	color: #444;
+}
+li,a
+{
+	list-style: none;
+	text-decoration: none;
+	color: #444;
+}
+
+li{
+	display : inline-block;
+}
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-items : center;
+}
+section{
+	display: flex;
+	justify-content: center;
+	align-items : center;
+}
+.cherche{
+	border: 1px black solid;
+	border-radius: 20px;
+}
+.navlink2{
+	display: flex;
+	justify-content: space-between;
+	align-items : flex-end;	
+}
+footer{
+	background-color: #EEE;
+}
+.butt{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
